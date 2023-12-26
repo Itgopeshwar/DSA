@@ -14,16 +14,6 @@ This repository contains implementations of various data structures and algorith
 
 This repository serves as a collection of common data structures and algorithms implemented in Java. The goal is to provide a resource for learning and practicing DSA concepts.
 
-## Directory Structure
-
-The project is organized as follows:
-
-
-- `src/main/java/com/yourusername/dsalibrary/algorithms`: Contains algorithm implementations.
-- `src/main/java/com/yourusername/dsalibrary/datastructures`: Contains data structure implementations.
-- `test/java/com/yourusername/dsalibrary/algorithms`: Contains tests for algorithm implementations.
-- `test/java/com/yourusername/dsalibrary/datastructures`: Contains tests for data structure implementations.
-
 ## Contributing
 Contributions are welcome! If you'd like to contribute, please follow these steps:
 
