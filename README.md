@@ -24,23 +24,6 @@ The project is organized as follows:
 - `test/java/com/yourusername/dsalibrary/algorithms`: Contains tests for algorithm implementations.
 - `test/java/com/yourusername/dsalibrary/datastructures`: Contains tests for data structure implementations.
 
-## Usage
-
-To use a specific data structure or algorithm, you can instantiate the corresponding class from the `com.yourusername.dsalibrary` package. Make sure to add the necessary dependencies to your project.
-
-Example:
-
-```java
-import com.yourusername.dsalibrary.algorithms.Sorting;
-
-public class Main {
-    public static void main(String[] args) {
-        int[] array = {4, 2, 7, 1, 9, 5};
-        Sorting.quickSort(array);
-        System.out.println(Arrays.toString(array));
-    }
-}
-
 ## Contributing
 Contributions are welcome! If you'd like to contribute, please follow these steps:
 
