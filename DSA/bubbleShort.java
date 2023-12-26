@@ -1,2 +1,4 @@
-package DSA;public class bubbleShort {
+package DSA;
+
+public class bubbleShort {
 }
