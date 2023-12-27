@@ -20,7 +20,7 @@ public class SelectionSort {
         }
     }
     public static void main(String[] args) {
-        int []arr ={7,4,5,1,2};
+        int []arr ={7,4,5,1,2,2,32,2,1,3,43,3,2,1,2,2,33,4,4,4,4};
         selectionSort(arr);
 
         for (int i = 0; i < arr.length; i++) {
@@ -28,3 +28,4 @@ public class SelectionSort {
         }
     }
 }
+
