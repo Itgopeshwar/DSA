@@ -16,7 +16,7 @@ public class bubbleShort {
 
     }
     public static void main(String[] args) {
-        int[]a ={7,6,5,4,3,4,3,2,2,1,3,3,44,100,55,6,67,7,88,8,7,6,5,44,3,32,2,22,3,34,4,58,76,6};
+        int[]a ={7,6,5,34,4,58,76,6};
         bubbleSort(a);
         for(int i:a){
             System.out.print(i + " ");
