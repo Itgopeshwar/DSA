@@ -29,3 +29,6 @@ public class SelectionSort {
     }
 }
 
+// selection sort is in-place algorithm
+// it is chage the order
+// it is not stable algorithm
