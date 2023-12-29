@@ -5,7 +5,7 @@ public class SelectionSort {
         int n = arr.length;
 
         for (int i = 0; i < n-1; i++) {  // represent current Index
-            // Find minimum element from unsorted part of array
+            //  "Find minimum element from unsorted part of array"
             int min_index = i;
             for (int j = 0; j < n ; j++) {
                 if (arr[j] < arr[min_index]){
@@ -23,11 +23,11 @@ public class SelectionSort {
         int []arr ={7,4,5,1,2,2,32,2,1,3,43,3,2,1,2,2,33,4,4,4,4};
         selectionSort(arr);
 
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + "  ");
+        for (int j : arr) {
+            System.out.print(j + "  ");
         }
     }
 }
-// selection sort is in-place algorithm
-// it is chage the order
-// it is not stable algorithm
+// selection sort is an in-place algorithm
+// it is change the order
+// it is not a stable algorithm
