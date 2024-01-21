@@ -14,5 +14,9 @@ public class HashMapInJava {
         mapUserDefineName.put("US", 30);
         mapUserDefineName.put("China", 150);
 
+        System.out.println(mapUserDefineName);
+
+        mapUserDefineName.put("China",180);
+        System.out.println(mapUserDefineName);
     }
 }
