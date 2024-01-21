@@ -1,7 +1,7 @@
 package DSA.Hashing;
 
 import java.util.HashSet;
-
+import java.util.Iterator;
 public class Hashing {
     public static void main(String[] args) {
 
@@ -16,6 +16,17 @@ public class Hashing {
 
         // Size of HashSet
         System.out.println("Size of set is : " + setName.size()); // Size of set is : 3
+        System.out.println(setName + "  "); // print all elements
+
+        // Iterator
+        Iterator it =setName.iterator();
+//        hasNext();    next()
+        while(it.hasNext()){
+            System.out.print(it.next()+"  ");
+        }
+
+
+
 
 //        // Search - contains
 //        if (setName.contains(1)){
