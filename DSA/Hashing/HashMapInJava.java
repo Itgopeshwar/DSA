@@ -9,6 +9,10 @@ public class HashMapInJava {
         //Creating HashMap in Java
         HashMap<String,Integer> mapUserDefineName = new HashMap<>();
 
+//        Insertion
+        mapUserDefineName.put("India",120);
+        mapUserDefineName.put("US", 30);
+        mapUserDefineName.put("China", 150);
 
     }
 }
