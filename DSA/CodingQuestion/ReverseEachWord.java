@@ -1,6 +1,5 @@
 package DSA.CodingQuestion;
-
-import java.util.*;
+import java.util.Scanner;
 public class ReverseEachWord {
     public static void main(String[] args) {
         System.out.println("Enter the String for  Reverse each word");
