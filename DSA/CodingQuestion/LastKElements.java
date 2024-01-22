@@ -9,6 +9,7 @@ public class LastKElements {
 
         int arr[]=new int[arraySizeInput];
 
+        System.out.println("Enter elements in arrays");
         for(int i=0;i<arraySizeInput;i++){
             arr[i] = sc.nextInt();
         }
