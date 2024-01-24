@@ -1,4 +1,4 @@
-package DSA.CodingQuestion;
+package Src.DSA.CodingQuestion;
 import java.util.Scanner;
 public class ReverseEachWord {
     public static void main(String[] args) {

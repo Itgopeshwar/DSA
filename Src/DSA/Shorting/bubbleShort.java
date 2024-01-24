@@ -1,4 +1,4 @@
-package DSA.Shorting;
+package Src.DSA.Shorting;
 
 public class bubbleShort {
     static void bubbleSort(int[] a){

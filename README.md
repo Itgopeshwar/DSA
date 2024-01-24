@@ -12,7 +12,7 @@ This repository contains implementations of various data structures and algorith
 
 ## Introduction
 
-This repository serves as a collection of common data structures and algorithms implemented in Java. The goal is to provide a resource for learning and practicing DSA concepts.
+This repository serves as a collection of common data structures and algorithms implemented in Java. The goal is to provide a resource for learning and practicing Src.DSA concepts.
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute, please follow these steps:

@@ -1,4 +1,4 @@
-package DSA.Hashing;
+package Src.DSA.Hashing;
 
 import java.util.HashSet;
 import java.util.Iterator;

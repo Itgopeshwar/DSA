@@ -1,4 +1,4 @@
-package DSA.CodingQuestion;
+package Src.DSA.CodingQuestion;
 import java.util.*;
 public class CountCarry {
     public static void main(String[] args) {

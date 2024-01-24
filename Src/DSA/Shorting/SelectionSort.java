@@ -1,4 +1,4 @@
-package DSA.Shorting;
+package Src.DSA.Shorting;
 
 public class SelectionSort {
     static void selectionSort(int[]arr){

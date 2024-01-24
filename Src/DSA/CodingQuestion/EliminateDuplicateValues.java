@@ -1,4 +1,4 @@
-package DSA.CodingQuestion;
+package Src.DSA.CodingQuestion;
 import java.util.Scanner;
 import java.util.HashMap;
 public class EliminateDuplicateValues {

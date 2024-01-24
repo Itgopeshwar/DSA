@@ -1,4 +1,4 @@
-package DSA.Arrays;
+package Src.DSA.Arrays;
 
 class Solution {
     public int reverse(int x) {
