@@ -21,13 +21,20 @@ public class HashMapInJava {
 
 
         // Search
-        if (mapUserDefineName.containsKey("China")){
-            System.out.println("key is present in the map");
-        }else {
-            System.out.println("key is not present in the map");
+//        if (mapUserDefineName.containsKey("China")){
+//            System.out.println("key is present in the map");
+//        }else {
+//            System.out.println("key is not present in the map");
+//        }
+
+//        System.out.println(mapUserDefineName.get("China"));
+//        System.out.println(mapUserDefineName.get("UK"));
+
+        // for loop type
+        int[] arr ={12,13,45};
+        for (int i = 0; i <arr.length ; i++) {
+            System.out.println(arr[i]);
         }
 
-        System.out.println(mapUserDefineName.get("China"));
-        System.out.println(mapUserDefineName.get("UK"));
     }
 }
