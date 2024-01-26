@@ -32,8 +32,15 @@ public class HashMapInJava {
 
         // for loop type
         int[] arr ={12,13,45};
+        // first type
         for (int i = 0; i <arr.length ; i++) {
-            System.out.println(arr[i]);
+            System.out.print(arr[i]+" ");
+        }
+        System.out.print("\n"); //line change
+
+        //second type
+        for(int value_of_Arr:arr){
+            System.out.print(value_of_Arr+" ");
         }
 
     }
