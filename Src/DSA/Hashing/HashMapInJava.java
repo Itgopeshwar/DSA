@@ -2,6 +2,7 @@ package Src.DSA.Hashing;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 
 public class HashMapInJava {
     public static void main(String[] args) {
@@ -52,11 +53,14 @@ public class HashMapInJava {
 //            System.out.println();
         }
 
-
-//        for (int val :arr)
-        for(Map.Entry<String,Integer> e: mapUserDefineName.entrySet()){
-            System.out.println(e);
+        Set<String> keys = mapUserDefineName.keySet();
+        for(String key :keys){
+//            System.out.print(key+ " "+mapUserDefineName.get(key));
         }
+
+        // remove key and its value
+        mapUserDefineName.remove("China");
+        System.out.println(mapUserDefineName);
 
     }
 }
