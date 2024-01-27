@@ -54,7 +54,9 @@ public class HashMapInJava {
 
 
 //        for (int val :arr)
-        for(Map.Entry<String,Integer> e: mapUserDefineName.entrySet())
+        for(Map.Entry<String,Integer> e: mapUserDefineName.entrySet()){
+            System.out.println(e);
+        }
 
     }
 }
