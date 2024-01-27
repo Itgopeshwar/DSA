@@ -47,10 +47,14 @@ public class HashMapInJava {
         // hashMap iteration
         for (Map.Entry<String,Integer> e :mapUserDefineName.entrySet()){
             // e => key as well as value both are hold in e variable
-            System.out.print(e.getKey()+" ");
-            System.out.print(e.getValue()+" ");
-            System.out.println();
+//            System.out.print(e.getKey()+" ");
+//            System.out.print(e.getValue()+" ");
+//            System.out.println();
         }
+
+
+//        for (int val :arr)
+        for(Map.Entry<String,Integer> e: mapUserDefineName.entrySet())
 
     }
 }
