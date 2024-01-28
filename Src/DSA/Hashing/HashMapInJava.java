@@ -55,12 +55,12 @@ public class HashMapInJava {
 
         Set<String> keys = mapUserDefineName.keySet();
         for(String key :keys){
-//            System.out.print(key+ " "+mapUserDefineName.get(key));
+        //   System.out.print(key+ " "+mapUserDefineName.get(key));
         }
 
         // remove key and its value
         mapUserDefineName.remove("China");
-        System.out.println(mapUserDefineName);
+        // System.out.println(mapUserDefineName);
 
     }
 }
