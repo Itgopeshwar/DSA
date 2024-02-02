@@ -14,4 +14,9 @@ public class support {
         int mul=first*second;
         return mul;
     }
+    public int Div(int first,int second){
+        int div=first/second;
+        return div;
+    }
+
 }
