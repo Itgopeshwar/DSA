@@ -15,8 +15,13 @@ public class support {
         return mul;
     }
     public int Div(int first,int second){
-        int div=first/second;
+        int div;
+        if (first>=second){
+            div=first/second;
+        }
+        else {
+            div=second/first;
+        }
         return div;
     }
-
 }

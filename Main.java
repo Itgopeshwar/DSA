@@ -15,7 +15,7 @@ public class Main {
         int multi=obj.Mul(2,3);
         System.out.println(multi);
 
-        int div = obj.Div(4,7);
+        int div = obj.Div(30,2);
         System.out.println(div);
     }
 }
