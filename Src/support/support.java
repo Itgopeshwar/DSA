@@ -10,4 +10,8 @@ public class support {
         int sub=first-second;
         return sub;
     }
+    public int Mul(int first , int second){
+        int mul=first*second;
+        return mul;
+    }
 }
