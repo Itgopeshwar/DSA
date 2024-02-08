@@ -1,24 +1,37 @@
 package Src.DSA.SearchAlgo;
 
 public class BinarySearch {
-    public static void main(String[] args) {
-        int arr[]={3,5,9,13,27};
-        int mid,start,end,key,ans;
-        key=13;
-        start=0;
-        end=arr.length;
-        mid=(start+end)/2;
-        System.out.println("start index "+start);
-        System.out.println("end index "+end);
-        System.out.println("mid index"+mid);
-        System.out.println("mid element "+arr[mid]);
-        for (int i = 0; i < arr.length; i++) {
-//            System.out.print(arr[i]+" ");
-            if (arr[i]==arr[mid]){
-                System.out.println(arr[i]);
+
+    public static int binarySearch(int arr[],int size,int key){
+        int start = 0;
+        int end = size-1;
+
+        int mid_index= (start + end)/2;
+
+        while (start <= end){
+            if (arr[mid_index] == key){
+                return mid_index;
             }
 
+            if (key > arr[mid_index]){
+                start = mid_index+1;
+            }
+            else {
+                end=mid_index-1;
+            }
+            mid_index = (start+end)/2;
         }
+        return -1;
+    }
+    public static void main(String[] args) {
+        int[] even_number_of_arr = {2,4,6,8,12,18};
+        int []odd_number_of_arr={3,11,18,23,32};
+
+        int even_index= binarySearch(even_number_of_arr,6,18);
+        System.out.println("place no. is : "+ (even_index+1) +" and number is : "+ even_number_of_arr[even_index]);
+
+        int odd_index= binarySearch(odd_number_of_arr,6,18);
+        System.out.println("place no. is : "+ (odd_index+1) +" and number is : "+ odd_number_of_arr[odd_index]);
     }
 
 }
