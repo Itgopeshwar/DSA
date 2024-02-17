@@ -24,8 +24,13 @@ public class HashMapCode {
         }
     }
 
-    public void put(K key,V value){
 
+    private int hashFunction(k key){
+
+    }
+    public void put(K key,V value){
+        int bi = hashFunction(key);
+        searchInLL(key,bi); // data index
     }
 
     public boolean containsKey(K key){
