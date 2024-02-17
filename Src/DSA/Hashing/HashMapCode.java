@@ -46,6 +46,18 @@ public class HashMapCode {
     private void rehash(){
         LinkedList<Node> oldBucket[]=buckets;
         buckets=new LinkedList[N*2];
+
+        for (int i = 0; i <N*2 ; i++) {
+            buckets[i] = new LinkedList<Node>();
+        }
+
+        for(int i=0;i<oldBucket.length;i++){
+            LinkedList<Node> ll =oldBucket[i];
+            for (int j = 0; j < ll.get(); j++) {
+                Node node = ll.get(j);
+                put(node.key, node.value);
+            }
+        }
     }
     public void put(K key,V value){
         int bi = hashFunction(key);
