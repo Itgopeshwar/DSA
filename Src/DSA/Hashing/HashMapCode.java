@@ -30,7 +30,21 @@ public class HashMapCode {
     }
     public void put(K key,V value){
         int bi = hashFunction(key);
-        searchInLL(key,bi); // data index
+        int di=searchInLL(key,bi); // data index
+
+        if(di == -1){// key does not exist
+            buckets[bi].add(new Node(key,value));
+            n++;
+        }else { // key exits
+            Node data = buckets[bi].get(di);
+            data.value=value;
+        }
+
+        double lambda = (double)n/N;
+        if(lambda>2.0){
+            // rehashing
+
+        }
     }
 
     public boolean containsKey(K key){
