@@ -93,4 +93,8 @@ public class HashMapCode {
     public ArrayList<K> keySet(){
         return false;
     }
+
+    public static void main(String[] args) {
+        // 42:32
+    }
 }
