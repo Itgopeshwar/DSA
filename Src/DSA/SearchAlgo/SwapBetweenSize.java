@@ -11,8 +11,8 @@ public class SwapBetweenSize {
         }
     }
     public static void main(String[] args) {
-        int[] arr = {2,8,6,4,3,8,9,5,7}; // for odd number
-        int[] arrOdd = {23,45,67,89,20,42,62};
+        int[] arr = {2,8,6,4,3,8,9,5,7}; // for even number
+        int[] arrOdd = {23,45,67,89,20,42,62}; // for odd number
     }
 }
 
