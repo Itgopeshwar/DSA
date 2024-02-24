@@ -1,6 +1,5 @@
 package Src.DSA.StringType;
-
-import java.list
+import java.util.*;
 public class StringSwaping {
 	public static void main(String[] argv)
 		throws Exception
