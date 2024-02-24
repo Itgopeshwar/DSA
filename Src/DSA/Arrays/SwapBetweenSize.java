@@ -1,5 +1,5 @@
 
-package Src.DSA.SearchAlgo;
+package Src.DSA.Arrays;
 
 public class SwapBetweenSize {
 
