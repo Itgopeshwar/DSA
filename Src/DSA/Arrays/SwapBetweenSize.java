@@ -7,9 +7,10 @@ public class SwapBetweenSize {
         // iterating
         for (int i = 0; i < arr.length; i += 2) {
             if (i + 1 < size) {
-                int temp = arr[i];
+                int temp = arr[i]; // Swaping number user define 
                 arr[i] = arr[i + 1];
                 arr[i + 1] = temp;
+                // swap(List list, int i, int j) // this is the pre define swaping number 
             }
         }
     }
@@ -18,8 +19,8 @@ public class SwapBetweenSize {
         int[] arr = { 2, 8, 6, 4, 3, 8, 9, 5, 7,40 }; // for even number
         int[] arrOdd = { 23, 45, 67, 89, 20, 42, 62 }; // for odd number
 
-        SwapBetweenSize swapBetweenSize = new SwapBetweenSize();
-        swapBetweenSize.SwapNum(arr, arr.length);
+        SwapBetweenSize swapBetweenSize = new SwapBetweenSize(); // creating object of class SwapNum
+        swapBetweenSize.SwapNum(arr, arr.length); // swaping number 
         swapBetweenSize.SwapNum(arrOdd, arrOdd.length);
 
         // printing the swapped arrays
