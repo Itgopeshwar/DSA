@@ -1,7 +1,6 @@
 package Src.DSA.StringType;
-import java.util.*;
-// Java program to demonstrate
-// swap() method for String value
+
+import java.list
 public class StringSwaping {
 	public static void main(String[] argv)
 		throws Exception
