@@ -17,5 +17,12 @@ public class Main {
 
         int div = obj.Div(30,2);
         System.out.println(div);
+
+        // add three number
+        int a =10;
+        int b = 20;
+        
+        System.out.println(a+""+b);
+        
     }
 }
