@@ -21,7 +21,7 @@ public class SwapBetweenSize {
 
         SwapBetweenSize swapBetweenSize = new SwapBetweenSize(); // creating object of class SwapNum
         swapBetweenSize.SwapNum(arr, arr.length); // swaping number 
-        swapBetweenSize.SwapNum(arrOdd, arrOdd.length);
+        swapBetweenSize.SwapNum(arrOdd,arr.length);
 
         // printing the swapped arrays
         System.out.println("Swapped array for even numbers:");
