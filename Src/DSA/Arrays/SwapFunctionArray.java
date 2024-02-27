@@ -1,24 +1,24 @@
 package Src.DSA.Arrays;
 
-public class SwapFunctionArray {
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
-    void swapFun(int arr[],int size){
-        for (int i = 0; i < arr.length; i+=2) {
-            if (i+1<size) {
-                // code
-                int tem=arr[i];
-                arr[i]=arr[i+1];
-                arr[i+1]=tem;
-            }
-        }
-    }
+public class SwapFunctionArray {
     public static void main(String[] args) {
-        int array[]={5,3,2,8,4,6};
-        SwapFunctionArray swap_obj=new SwapFunctionArray();
-        swap_obj.swapFun(array,array.length);
-        for (int i : array) {
-            System.out.print(" "+ i);
+        List<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(5);
+        list.add(2);
+        list.add(4);
+        list.add(9);
+        list.add(3);
+        System.out.println("before swap "+list);
+        for (int i = 0; i < list.size(); i++) {
+            int j=i++;
+            Collections.swap(list,i,j);
         }
+        System.out.println(list);
     }
     
 }
