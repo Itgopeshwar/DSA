@@ -7,7 +7,7 @@ class ReverseArrays {
         // code
         // Two pointer approach
         int startIndex = 0;
-         while (startIndex<=arrSize){
+         while (startIndex<=arrSize-1){
              int temp = ans[startIndex];
              ans[startIndex] = ans[arrSize];
              ans[arrSize]=temp;

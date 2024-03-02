@@ -17,5 +17,8 @@ public class Main {
 
         MaxElementInArray maxElementInArray = new MaxElementInArray();
         maxElementInArray.maxElementInArray(array,array.length);
+
+        MaxElementsJava8Stream maxElementsJava8Stream = new MaxElementsJava8Stream();
+        maxElementsJava8Stream .maxElementsJava8Stream(array,array.length);
     }
 }
