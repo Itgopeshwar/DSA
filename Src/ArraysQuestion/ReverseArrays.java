@@ -11,7 +11,6 @@ class ReverseArrays {
              int temp = ans[startIndex];
              ans[startIndex] = ans[arrSize];
              ans[arrSize]=temp;
-
              startIndex ++;
              arrSize --;
          }
