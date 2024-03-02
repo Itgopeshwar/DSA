@@ -1,5 +1,9 @@
 package Src.ArraysQuestion;
 
+import Src.ArraysQuestion.MaxFind.MaxElementInArray;
+import Src.ArraysQuestion.MaxFind.MaxElementsJava8Stream;
+import Src.ArraysQuestion.MaxFind.MaxElementsShorting;
+
 import java.util.Random;
 
 public class Main {
@@ -20,5 +24,8 @@ public class Main {
 
         MaxElementsJava8Stream maxElementsJava8Stream = new MaxElementsJava8Stream();
         maxElementsJava8Stream .maxElementsJava8Stream(array,array.length);
+
+        MaxElementsShorting maxElementsShorting = new MaxElementsShorting();
+        maxElementsShorting.maxElementsUsingShorting(array);
     }
 }

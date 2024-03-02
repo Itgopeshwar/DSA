@@ -1,11 +1,11 @@
-package Src.ArraysQuestion;
+package Src.ArraysQuestion.MaxFind;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-class MaxElementInArray {
-    void maxElementInArray(int[] ansArray, int arraySize){
+public class MaxElementInArray {
+    public void maxElementInArray(int[] ansArray, int arraySize){
         // Code
         List<Integer> list = new ArrayList<>(); //Adding elements in List
         for (int i = 0; i < arraySize-1; i++) {
