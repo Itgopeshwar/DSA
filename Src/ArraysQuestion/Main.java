@@ -27,5 +27,8 @@ public class Main {
 
         MaxElementsShorting maxElementsShorting = new MaxElementsShorting();
         maxElementsShorting.maxElementsUsingShorting(array);
+
+        RemoveDuplicationsElements removeDuplicationsElements = new RemoveDuplicationsElements();
+        removeDuplicationsElements.removeDuplicationElements();
     }
 }
