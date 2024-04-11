@@ -13,10 +13,14 @@ public class UnionOf2Arrays {
         // create HashSet
         HashSet<Integer> hashSet = new HashSet<>();
 
-        for (int i = 0; i <arr1.length; i++) {
-            hashSet.add(arr1[i]);
+        for (int k : arr1) {
+            hashSet.add(k);
         }
-        System.out.println(hashSet);
+
+        for (int j : arr2) {
+            hashSet.add(j);
+        }
+        System.out.println("length of Array "+hashSet.size()+"\nElements in union Arrays is  "+hashSet);
     }
 
     public static void main(String[] args) {
