@@ -30,5 +30,8 @@ public class Main {
 
         RemoveDuplicationsElements removeDuplicationsElements = new RemoveDuplicationsElements();
         removeDuplicationsElements.removeDuplicationElements();
+
+        TwoSumProblem twoSumProblem = new TwoSumProblem();
+        twoSumProblem.twoSumProblem(array,60);
     }
 }

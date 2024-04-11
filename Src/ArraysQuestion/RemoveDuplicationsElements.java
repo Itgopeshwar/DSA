@@ -17,5 +17,6 @@ class RemoveDuplicationsElements {
         for (int i = 0; i < j; i++) {
             System.out.print(arrays[i] + " ");
         }
+        System.out.println();
     }
 }
